@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 2022. 06. 02 웹표준 수업 남창우 </title>
+    <style>
+        .usrlst {
+            list-style-type: circle;
+        }
+    </style>
+</head>
+<body>
+    <h1>auto rename tag</h1>
+    <p>auto rename tag 라는 VS Code 확장 프로그램으로
+        <br> tag와 close tag 를 동시에 자동 완성할 수 있다.</p>
+    <section>
+        <h2>section과 article 에는 h1 ~ h6 이 공통으로 들어간다.</h2>
+        <ul class="nav">
+            <li><a href="">메뉴1</a></li>
+            <li><a href="">메뉴2</a></li>
+            <li><a href="">메뉴3</a></li>
+            <li><a class="usrlst" href="">메뉴1</a></li>
+            <li><a class="usrlst" href="">메뉴2</a></li>
+            <li><a class="usrlst" href="">메뉴3</a></li>
+        </ul>
+        
+        table>tr*3>td*3
+        ol#util[type=1]>li*3
+
+        <ol id="util" type="1">
+            <li>한글</li>
+            <li>영문</li>
+            <li>연습</li>
+        </ol>
+        <!-- 주석
+        여러줄 주석 -->
+        <dl>
+            <dt>html</dt>
+            <dd>hyper text markup  language</dd>
+        </dl>
+        <!-- 데이터 테이블과 배치용 테이블이 있다. -->
+        <!-- alt 속성은 대체 텍스트로 반드시 포함한다. -->
+        <img src="./img/apple.gif" alt="apple">
+        <!-- inline style -->
+        <img src="./img/apple.gif" style="width: 500px;height: 500px;">
+        <!-- html property -->
+        <img src="./img/apple2.jpg" alt="green apple" width="500" height="500">
+        <figure>
+            <img src="./img/cherry.jpg" alt="cherry">
+            <figcaption>
+                <span style="color:red;font-size: large;">체리다.</span>
+            </figcaption>
+        </figure>
+        <div>
+            <img src="./img/duck.jpg" alt="duck">
+        </div>
+    </section>
+</body>
+</html>
